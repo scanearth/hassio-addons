@@ -1,19 +1,11 @@
 ---
 channel: stable
 addons:
-  steve:
-    repository: erik73/addon-steve
-    target: steve
-    image: ghcr.io/erik73/steve/{arch}
   mailserver:
-    repository: erik73/addon-mail
+    repository: ScanEarth/addon-mail
     target: mail
-    image: ghcr.io/erik73/mailserver/{arch}
+    image: ghcr.io/ScanEarth/mailserver/{arch}
   mailfilter:
-    repository: erik73/addon-mailfilter
+    repository: ScanEarth/addon-mailfilter
     target: mailfilter
-    image: ghcr.io/erik73/mailfilter/{arch}
-  tellsticklive:
-    repository: erik73/addon-tellsticklive
-    target: tellsticklive
-    image: ghcr.io/erik73/tellsticklive/{arch}
+    image: ghcr.io/ScanEarth/mailfilter/{arch}
