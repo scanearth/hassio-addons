@@ -17,10 +17,10 @@ mkdir -p docs
 pip3 install -r requirements.txt
 
 # Download Beta page
-curl https://raw.githubusercontent.com/erik73/repository-beta/master/README.md --output docs/beta.md
+curl https://raw.githubusercontent.com/scanearth/repository-beta/master/README.md --output docs/beta.md
 
 # Download Edge page
-curl https://raw.githubusercontent.com/erik73/repository-edge/master/README.md --output docs/edge.md
+curl https://raw.githubusercontent.com/scanearth/repository-edge/master/README.md --output docs/edge.md
 
 # Get the pages into the docs folder
 ln -sf ../README.md docs/index.md
