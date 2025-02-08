@@ -2,7 +2,7 @@
 channel: stable
 addons:
   mailserver:
-    repository: scanearth/addon-mail-scanearth
+    repository: scanearth/addon-mail
     target: mail
     image: ghcr.io/scanearth/mailserver/{arch}
   mailfilter:
