@@ -9,4 +9,4 @@ on:
 
 jobs:
   workflows:
-    uses: erik73/workflows/.github/workflows/labels.yaml@main
+    uses: scanearth/workflows/.github/workflows/labels.yaml@main
