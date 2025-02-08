@@ -1,14 +1,14 @@
 ---
 # Project information
 site_name: "Home Assistant Add-ons by Erik73 edited by ScanEarth"
-site_url: "https://ScanEarth.github.io"
+site_url: "https://scanearth.github.io"
 site_description: "These add-ons for Home Assistant was created for my own use, be able to use my HA host for all my server needs. Someone else might find them useful!"
 site_author: "Filippe Åhlund"
 copyright: "Copyright 2021 - Erik Hilton."
 
 # Repository
 repo_name: "ScanEarth/hassio-addons"
-repo_url: "https://github.com/ScanEarth/hassio-addons"
+repo_url: "https://github.com/scanearth/hassio-addons"
 edit_uri: ""
 
 # Theme configuration
@@ -32,7 +32,7 @@ extra:
   manifest: "manifest.webmanifest"
   social:
     - icon: fontawesome/brands/github-alt
-      link: "https://github.com/erik73"
+      link: "https://github.com/scanearth"
 
 # Extensions
 markdown_extensions:
