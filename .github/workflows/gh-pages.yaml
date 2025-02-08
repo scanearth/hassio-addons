@@ -40,8 +40,8 @@ jobs:
 
       - run: |
           mkdir -p docs
-          curl https://raw.githubusercontent.com/erik73/repository-beta/master/README.md --output docs/beta.md
-          curl https://raw.githubusercontent.com/erik73/repository-edge/master/README.md --output docs/edge.md
+          curl https://raw.githubusercontent.com/scanearth/repository-beta/master/README.md --output docs/beta.md
+          curl https://raw.githubusercontent.com/scanearth/repository-edge/master/README.md --output docs/edge.md
           ln -sf ../README.md docs/index.md
           ln -sf ../LICENSE.md docs/LICENSE.md
           ln -sf ../CONTRIBUTING.md docs/contributing.md
@@ -52,7 +52,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: erik73/erik73.github.io
+          external_repository: scanearth/scanearth.github.io
           publish_branch: main
           publish_dir: ./site
           keep_files: true
