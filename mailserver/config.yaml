@@ -3,12 +3,9 @@ version: 3.0.1
 slug: mailserver
 description: Postfix and Dovecot mail server for Home Assistant, with Postfix Admin
   web interface
-url: https://github.com/erik73/hassio-addons
+url: https://github.com/scanearth/hassio-addons
 arch:
-- aarch64
 - amd64
-- armv7
-- i386
 init: false
 ingress: true
 ingress_stream: true
@@ -47,4 +44,4 @@ schema:
   smtp_relayhost_credentials: str?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   message_size_limit: int
-image: ghcr.io/erik73/mailserver/{arch}
+image: ghcr.io/scanearth/mailserver/{arch}
