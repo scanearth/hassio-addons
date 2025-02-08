@@ -8,6 +8,6 @@ on:
 
 jobs:
   workflows:
-    uses: erik73/workflows/.github/workflows/repository-updater.yaml@main
+    uses: scanearth/workflows/.github/workflows/repository-updater.yaml@main
     secrets:
       UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
