@@ -5,4 +5,3 @@ addons:
     repository: scanearth/addon-mail
     target: mail
     image: ghcr.io/scanearth/mailserver/{arch}
-  
