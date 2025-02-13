@@ -52,10 +52,10 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 
 MIT License
 
-[addon-mailserver]: https://github.com/scanearth/addon-mail/tree/v3.0.6
-[addon-doc-mailserver]: https://github.com/scanearth/addon-mail/blob/v3.0.6/README.md
+[addon-mailserver]: https://github.com/scanearth/addon-mail/tree/v3.0.7
+[addon-doc-mailserver]: https://github.com/scanearth/addon-mail/blob/v3.0.7/README.md
 [mailserver-issue]: https://github.com/scanearth/addon-mail/issues
-[mailserver-version-shield]: https://img.shields.io/badge/version-v3.0.6-blue.svg
+[mailserver-version-shield]: https://img.shields.io/badge/version-v3.0.7-blue.svg
 [mailserver-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [mailserver-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [mailserver-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
