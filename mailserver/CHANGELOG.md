@@ -1,4 +1,1 @@
-## What’s changed
-
-## 🐛 Customizations for SMTP-relay
-
+**Full Changelog**: https://github.com/scanearth/addon-mail/compare/v3.0.4...v3.0.5
