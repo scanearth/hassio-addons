@@ -1,4 +1,4 @@
-thname: Mailserver
+name: Mailserver
 version: 3.0.2
 slug: mailserver
 description: Postfix and Dovecot mail server for Home Assistant, with Postfix Admin
